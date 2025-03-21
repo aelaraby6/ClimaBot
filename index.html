@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+    <div id="alertContainer" class="container mt-3"></div>
+
+    <!--  Search Bar -->
+    <header>
+        <h1>Weather App</h1>
+        <div class="search-container">
+            <input type="text" id="cityInput" placeholder="Enter city name...">
+            <button id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button id="locationBtn"><i class="fa-solid fa-location-dot"></i></button>
+        </div>
+    </header>
+
+    <!--  Current Weather Data -->
+    <main>
+        <section class="weather-info">
+            <h2 id="cityName">City Name</h2>
+            <img id="weatherIcon" src="https://openweathermap.org/img/wn/01d@2x.png" alt="Weather Icon">
+            <p id="temperature"><i class="fa-solid fa-temperature-half"></i> --°C</p>
+            <p id="description"><i class="fa-solid fa-cloud"></i> Weather Description</p>
+            <p id="humidity"><i class="fa-solid fa-droplet"></i> Humidity: --%</p>
+            <p id="windSpeed"><i class="fa-solid fa-wind"></i> Wind Speed: -- km/h</p>
+        </section>
+
+
+        <section class="map-section">
+            <h3>Map</h3>
+            <div id="map"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Developed by Abdelrahman </p>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script defer src="logic.js" type="module"></script>
+    <script defer src="utilits.js" type="module"></script>
+
+</body>
+
+</html>
