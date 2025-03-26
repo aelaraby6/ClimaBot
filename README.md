@@ -31,11 +31,13 @@ ClimaBot is a simple weather application that provides real-time weather data an
 ## Setup
 
 1. Clone the repository:
+
    ```
    git clone https://github.com/your-username/climabot.git
    ```
-2. Get your API key from OpenWeatherMap.
-3. Add the API key inside `logic.js`:
+3. Get your API key from OpenWeatherMap.
+4. Add the API key inside `logic.js`:
+5. 
    ```js
    const ApiKey = "YOUR_API_KEY_HERE";
    ```
