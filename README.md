@@ -1,5 +1,6 @@
 # ClimaBot
 
+![weather](https://github.com/user-attachments/assets/dedd2bfc-bae6-40d9-999f-e60a5a557697)
 
 
 ## About
@@ -15,12 +16,15 @@ ClimaBot is a simple weather application that provides real-time weather data an
 - Responsive design using Bootstrap.
 - Custom styles written using **SASS (SCSS syntax)**.
 
+![map](https://github.com/user-attachments/assets/8b9e8571-7764-431a-9ca0-ddcd1b91761a)
+
+
 ## Tech Stack
 
 - HTML5
-- CSS3 / SASS (SCSS)
-- JavaScript (ES6)
-- Bootstrap 5
+- CSS3 / SASS 
+- JavaScript 
+- Bootstrap 
 - Leaflet.js
 - OpenWeatherMap API
 
@@ -35,5 +39,4 @@ ClimaBot is a simple weather application that provides real-time weather data an
    ```js
    const ApiKey = "YOUR_API_KEY_HERE";
    ```
-4. Open `index.html` in your browser.
 
