@@ -13,8 +13,6 @@ ClimaBot is a simple weather application that provides real-time weather data an
 - Weather info: temperature, description, humidity, wind speed.
 - Weather icons.
 - Interactive map using Leaflet and OpenStreetMap.
-- Responsive design using Bootstrap.
-- Custom styles written using **SASS (SCSS syntax)**.
 
 ![map](https://github.com/user-attachments/assets/8b9e8571-7764-431a-9ca0-ddcd1b91761a)
 
