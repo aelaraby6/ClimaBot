@@ -35,7 +35,7 @@ async function getWeatherData(cityName, lat, lon) {
         updateWeatherUI(cityName, data);
 
     } catch (err) {
-        console.error(err);
+        console.log(err);
     }
 }
 
